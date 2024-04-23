@@ -1,0 +1,42 @@
+  .section2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+     background-color:black; 
+     flex-wrap: wrap;
+} 
+ .section2 img{
+    width: 500px;
+    height: 400px;
+}   
+ .matter{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+ flex-wrap: wrap;
+}
+
+.matter h1{
+    font-size: 30px;
+}
+.matter p{
+    font-size:20px;
+}
+@media(max-width:800px){
+    .matter{
+        width: 60%;
+        text-align: center;
+    }
+    .matter h1{
+        font-size: 20px;
+    }
+    .matter p{
+        font-size: 15px;
+    }
+}

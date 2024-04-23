@@ -1,0 +1,19 @@
+.section4{
+/* background-color: rgb(20, 19, 19); */
+background-color: black;
+padding: 20px 50px;
+/* display: flex ; */
+}
+.div{
+width: 400px;
+padding: 0 40px;
+}
+.section4 h1{
+    padding:  30px ;
+    text-align:center
+}
+.section4 img{
+    border:3px solid rgb(197, 197, 177);
+    width: 90%;
+    height: 250px;
+};

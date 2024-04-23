@@ -1,0 +1,18 @@
+
+.section1{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 80px 20px;
+ flex-wrap: wrap;
+ gap: 50px;
+ background-color: black;
+}
+.section1 img{
+    width: 430px;
+    height: 400px;
+}
+ /* .section1 img1{
+    width: 450px;
+    height: 400px;
+}  */

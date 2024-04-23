@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 40px ;
+}
+.footer h1{
+    font-size: 40px;
+}
+input{
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: black;
+}
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
